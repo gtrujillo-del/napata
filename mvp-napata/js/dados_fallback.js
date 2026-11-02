@@ -1,0 +1,23 @@
+/* Cópia dos dados para funcionar também ao abrir index.html direto do computador (file://). Fonte: data/napata_dados.xml */
+window.NAPATA_XML = `<?xml version="1.0" encoding="UTF-8"?>
+<!-- Dados FICTÍCIOS de demonstração do MVP NaPata. Nenhum prestador é real. -->
+<naPata>
+  <servicos>
+    <servico id="S001"><nome>Banho e tosa</nome><categoria>banho</categoria><descricao>Banho, secagem e tosa higiênica para cães e gatos.</descricao></servico>
+    <servico id="S002"><nome>Consulta veterinária</nome><categoria>vet</categoria><descricao>Consulta clínica de rotina. Não substitui atendimento de emergência.</descricao></servico>
+    <servico id="S003"><nome>Pet shop</nome><categoria>petshop</categoria><descricao>Rações, acessórios e higiene.</descricao></servico>
+    <servico id="S004"><nome>Hospedagem</nome><categoria>hospedagem</categoria><descricao>Hotel e creche para pets, por diária.</descricao></servico>
+    <servico id="S005"><nome>Adestramento</nome><categoria>adestramento</categoria><descricao>Aulas de comportamento e obediência.</descricao></servico>
+  </servicos>
+  <prestadores>
+    <prestador id="P001"><nome>Pet Lovers (fictício)</nome><bairro>Botafogo</bairro><cidade>Rio de Janeiro</cidade><servicoRef>S001</servicoRef><precoEstimado moeda="BRL">80.00</precoEstimado><avaliacaoDemonstrativa>4.8</avaliacaoDemonstrativa><horario>Seg a Sáb, 8h às 18h</horario></prestador>
+    <prestador id="P002"><nome>Bichos &amp; Cia (fictício)</nome><bairro>Icaraí</bairro><cidade>Niterói</cidade><servicoRef>S001</servicoRef><precoEstimado moeda="BRL">70.00</precoEstimado><avaliacaoDemonstrativa>4.6</avaliacaoDemonstrativa><horario>Seg a Sex, 9h às 17h</horario></prestador>
+    <prestador id="P003"><nome>Clínica Amiga Pet (fictício)</nome><bairro>Centro</bairro><cidade>Rio de Janeiro</cidade><servicoRef>S002</servicoRef><precoEstimado moeda="BRL">120.00</precoEstimado><avaliacaoDemonstrativa>4.7</avaliacaoDemonstrativa><horario>Seg a Sex, 8h às 19h</horario></prestador>
+    <prestador id="P004"><nome>Vet Saúde (fictício)</nome><bairro>Santa Rosa</bairro><cidade>Niterói</cidade><servicoRef>S002</servicoRef><precoEstimado moeda="BRL">140.00</precoEstimado><avaliacaoDemonstrativa>4.9</avaliacaoDemonstrativa><horario>Seg a Sáb, 8h às 20h</horario></prestador>
+    <prestador id="P005"><nome>Miau Pet Shop (fictício)</nome><bairro>Copacabana</bairro><cidade>Rio de Janeiro</cidade><servicoRef>S003</servicoRef><precoEstimado moeda="BRL">35.00</precoEstimado><avaliacaoDemonstrativa>4.5</avaliacaoDemonstrativa><horario>Todos os dias, 9h às 21h</horario></prestador>
+    <prestador id="P006"><nome>Hotel Happy Pet (fictício)</nome><bairro>São Francisco</bairro><cidade>Niterói</cidade><servicoRef>S004</servicoRef><precoEstimado moeda="BRL">95.00</precoEstimado><avaliacaoDemonstrativa>4.4</avaliacaoDemonstrativa><horario>24h, com reserva</horario></prestador>
+    <prestador id="P007"><nome>Cão Educado (fictício)</nome><bairro>Tijuca</bairro><cidade>Rio de Janeiro</cidade><servicoRef>S005</servicoRef><precoEstimado moeda="BRL">150.00</precoEstimado><avaliacaoDemonstrativa>4.7</avaliacaoDemonstrativa><horario>Ter a Sáb, 10h às 18h</horario></prestador>
+    <prestador id="P008"><nome>Pelo &amp; Pata (fictício)</nome><bairro>Barra da Tijuca</bairro><cidade>Rio de Janeiro</cidade><servicoRef>S001</servicoRef><precoEstimado moeda="BRL">110.00</precoEstimado><avaliacaoDemonstrativa>4.3</avaliacaoDemonstrativa><horario>Seg a Sáb, 9h às 19h</horario></prestador>
+  </prestadores>
+</naPata>
+`;

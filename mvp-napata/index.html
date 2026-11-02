@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NaPata: Pet Personal Care (MVP demonstrativo)</title>
+  <meta name="description" content="MVP acadêmico do NaPata: busca, comparação e solicitação de serviços para pets. Dados fictícios.">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <div class="demo-banner" role="note">Demonstração acadêmica. Dados fictícios, sem pagamentos reais e sem integrações externas.</div>
+  <div class="app" id="app">
+    <header class="topbar">
+      <button class="icon-btn" id="btn-voltar" aria-label="Voltar" hidden>&#8592;</button>
+      <h1 class="brand" id="titulo-tela">NaPata</h1>
+      <span class="brand-sub">Pet Personal Care</span>
+    </header>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <main id="view" tabindex="-1"></main>
+    <nav class="tabbar" id="tabbar" aria-label="Navegação principal" hidden>
+      <a href="#/home" data-tab="home"><span>&#127968;</span>Início</a>
+      <a href="#/busca" data-tab="busca"><span>&#128269;</span>Busca</a>
+      <a href="#/solicitacoes" data-tab="solicitacoes"><span>&#128203;</span>Solicitações</a>
+      <a href="#/chatbot" data-tab="chatbot"><span>&#128172;</span>Ajuda</a>
+      <a href="#/perfil" data-tab="perfil"><span>&#128100;</span>Perfil</a>
+    </nav>
+  </div>
+  <script src="js/dados_fallback.js"></script>
+  <script src="js/chatbot.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
